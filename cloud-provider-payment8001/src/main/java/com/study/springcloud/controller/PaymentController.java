@@ -16,7 +16,7 @@ public class PaymentController {
 
     @PostMapping("/create")
     @ResponseBody
-    public CommonResult create(Payment payment) {
+    public CommonResult create(@RequestBody Payment payment) {
         int i = paymentService.create(payment);
         if (i > 0) {
             return new CommonResult(200, "插入成功");
