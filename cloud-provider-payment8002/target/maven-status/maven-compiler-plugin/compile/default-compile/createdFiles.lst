@@ -1,0 +1,4 @@
+com\study\springcloud\entities\CommonResult.class
+com\study\springcloud\dao\PaymentMapper.class
+com\study\springcloud\entities\Payment.class
+com\study\springcloud\PaymentMain8001.class
