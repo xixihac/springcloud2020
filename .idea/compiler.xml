@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-provider-hystrix-payment8001" />
+        <module name="cloud-config-client3366" />
         <module name="cloud-config-center3344" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-eureka-server7001" />
@@ -22,6 +23,7 @@
         <module name="cloud-consumer-orderFeign80" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-consumer-orderZk80" />
+        <module name="cloud-config-client3355" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
